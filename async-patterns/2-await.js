@@ -17,7 +17,7 @@ const start = async () => {
     console.log(error)
   }
 }
- 
+
 start()
 
 // const getText = (path) => {
