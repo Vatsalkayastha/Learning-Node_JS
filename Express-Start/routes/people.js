@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-let {products,people} = require('../data');
 const {getPeople,createPerson,createPersonPostman,updateperson,deletePerson} = require('../controller/people')
 router.get("/",getPeople);
 
